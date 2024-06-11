@@ -1,38 +1,19 @@
-![Node.js Logo](https://example.com/node-logo.png)
+# Telegram Bot using Node.js and Telegraf
 
+![Node.js and npm](./images/nodejs_npm.png)
 
-# Telegram Bot with Node.js
-==========================
+## Description
 
-### Overview
-This is a simple Telegram bot built using Node.js. It allows users to interact with the bot through Telegram and provides basic functionality.
+This is a simple Telegram bot created using Node.js and the `telegraf` package. The bot can respond to messages and perform basic actions.
 
-### Features
-- **Basic Commands**: The bot supports basic commands such as `hello`, `help`, and `goodbye`.
-- **Custom Commands**: You can add custom commands to the bot by modifying the `commands.js` file.
-- **Image Support**: The bot can send images to users.
+## Prerequisites
 
-### Installation
-To run the bot, follow these steps:
+- [Node.js](https://nodejs.org/) (version 12.x or higher)
+- [npm](https://www.npmjs.com/)
 
-1. **Install Dependencies**: Run `npm install` in the terminal to install the required dependencies.
-2. **Create a Telegram Bot**: Create a Telegram bot by talking to the BotFather bot and following the instructions.
-3. **Get API Token**: Get the API token for your bot from the BotFather bot.
-4. **Configure the Bot**: Update the `token` variable in `index.js` with your bot's API token.
-5. **Run the Bot**: Run `node index.js` in the terminal to start the bot.
+## Installation
 
-### Usage
-- **Start the Bot**: Run `node index.js` in the terminal to start the bot.
-- **Interact with the Bot**: Send messages to the bot to interact with it. Use the `hello`, `help`, and `goodbye` commands to test the bot's functionality.
-
-### Screenshots
-![Bot in Action](https://example.com/bot-screenshot.png)
-
-### Contributing
-If you'd like to contribute to this project, please fork the repository and submit a pull request.
-
-### License
-This project is licensed under the MIT License.
-
-### Contact
-If you have any questions or need help with the bot, feel free to reach out to me at [your-email@example.com](mailto:your-email@example.com).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/telegram-bot.git
+   cd telegram-bot
