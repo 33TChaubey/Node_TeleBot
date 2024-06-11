@@ -1,3 +1,6 @@
+![Node.js Logo](https://example.com/node-logo.png)
+
+
 # Telegram Bot with Node.js
 ==========================
 
